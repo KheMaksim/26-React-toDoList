@@ -1,0 +1,47 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.btn {
+	font-size: 14px;
+	height: 30px;
+	color: white;
+	background-color: red;
+	padding: 5px;
+}
+
+.form {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.form__input {
+	width: 100%;
+}
+
+.form__btn {
+	color: white;
+	background-color: green;
+}
+
+.task__container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
